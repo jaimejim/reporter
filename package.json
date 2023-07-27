@@ -1,0 +1,20 @@
+{
+  "name": "reporter",
+  "version": "1.0.0",
+  "description": "This Node.js script reads a text file, splits it into chunks, and generates a summary for each chunk using OpenAI's GPT-4 model. The summaries are then written to an output file.",
+  "main": "reporter.js",
+  "scripts": {
+    "start": "node reporter.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "dotenv": "^8.2.0",
+    "fs": "0.0.1-security",
+    "moment": "^2.29.1",
+    "openai": "^0.0.3"
+  }
+}
